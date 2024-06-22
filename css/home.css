@@ -1,0 +1,51 @@
+@import url("../css/header.css");
+@import url("../css/font.css");
+@import url("../css/footer.css");
+/* @import url("../css/main.css"); */
+
+.container {
+  display: flexbox;
+  width: 80vw;
+  margin: auto;
+  grid-template-columns: 35vw 35vw;
+  grid-template-rows: 45vh 45vh;
+  grid-gap: 25px;
+  grid-template-areas:
+    "topLeft topRight"
+    "bottomLeft bottomRight";
+  justify-content: center;
+}
+
+.blogbox {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+#one {
+  grid-area: topLeft;
+}
+
+#two {
+  grid-area: topRight;
+}
+
+#three {
+  grid-area: bottomLeft;
+}
+
+#four {
+  grid-area: bottomRight;
+}
+
+.change {
+  color: dodgerblue;
+}
+
+.img {
+  object-fit: contain;
+  width: 900px;
+  height: 500px;
+  justify-items: center;
+}

@@ -1,0 +1,180 @@
+/* Default styles for the container */
+
+@media (min-width: 0px) and (max-width: 400px) {
+  /* body {
+    background-color: gold;
+  } */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .navdiv {
+    font-size: 7px;
+  }
+
+  .blog {
+    font-size: 20px;
+    color: black;
+  }
+
+  h2 {
+    font-size: 12px;
+  }
+
+  button {
+    display: inline;
+  }
+
+  .cadetnscout h1 {
+    display: block;
+    font-size: 144%;
+  }
+
+  .img {
+    object-fit: contain;
+    width: 200px;
+    height: 100px;
+    justify-items: center;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: px;
+  }
+}
+
+/*         */
+@media (min-width: 301px) and (max-width: 600px) {
+  /* body {
+    background-color: purple;
+  } */
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .navdiv {
+    font-size: 17px;
+  }
+
+  .blog {
+    font-size: 30px;
+    color: black;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  button {
+    display: inline;
+  }
+
+  .cadetnscout h1 {
+    display: block;
+    font-size: 144%;
+  }
+
+  .img {
+    object-fit: contain;
+    width: 300px;
+    height: 200px;
+    justify-items: center;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: 7px;
+  }
+}
+
+/*           */
+@media (min-width: 601px) and (max-width: 960px) {
+  /* body {
+    background-color: red;
+  } */
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .navdiv {
+    font-size: 17px;
+  }
+
+  .blog {
+    font-size: 40px;
+    color: black;
+  }
+
+  h2 {
+    font-size: 33px;
+  }
+
+  button {
+    display: inline-flexbox;
+  }
+
+  .cadetnscout h1 {
+    display: block;
+    font-size: 144%;
+  }
+
+  .img {
+    object-fit: contain;
+    width: 700px;
+    height: 300px;
+    justify-items: center;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150x;
+    font-size: 9px;
+  }
+}
+
+/*  */
+
+@media (min-width: 961px) and (max-width: 3000px) {
+  /* body {
+    background-color: green;
+  } */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navdiv {
+    font-size: 30px;
+  }
+
+  .blog {
+    font-size: 50px;
+    color: black;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .img {
+    object-fit: contain;
+    width: 700px;
+    height: 300px;
+    justify-items: center;
+  }
+  .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,19 @@
+.berkshire {
+  font-family: "Berkshire Swash", cursive;
+  color: cadetblue;
+  font-size: xx-large;
+}
+.shadow {
+  font-family: "Lobster", sans-serif;
+  color: gold;
+}
+.lobster {
+  font-family: "Shadows Into Light", cursive;
+  color: dodgerblue;
+  font-size: xx-large;
+}
+
+.cadetnscout h1 {
+  display: inline-block;
+  font-size: 45px;
+}

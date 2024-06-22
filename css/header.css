@@ -1,0 +1,46 @@
+.navbar {
+  background-image: url("../imgs/lanyrith.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 10px;
+  font-family: "Love by the King", cursive;
+  border: 3px dotted palegoldenrod;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.navdiv {
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  font-family: "Loved by the King", cursive;
+  font-size: 45px;
+}
+.blog {
+  font-size: 70px;
+  color: black;
+}
+
+h2 {
+  font-family: "Loved by the King", cursive;
+  font-size: 50px;
+}
+h2 a:hover {
+  color: gold;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+a {
+  color: white;
+}
+.cadetnscout h1 {
+  display: inline-block;
+  font-size: 45px;
+}
+a:hover {
+  color: gold;
+  transition-delay: 0.07s;
+}

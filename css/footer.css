@@ -1,0 +1,32 @@
+#contact {
+  background-color: black;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 10px;
+  box-sizing: border-box;
+  font-family: "Loved by the King", cursive;
+  border: 3px dotted palegoldenrod;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 130px;
+  padding: 1px;
+}
+#contact p {
+  color: white;
+  font-family: "Shadows Into Light", cursive;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px;
+  font-size: 25px;
+}
+a {
+  color: whitesmoke;
+}
+
+a:hover {
+  color: gold;
+  transition-delay: 0.07s;
+}

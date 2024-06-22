@@ -1,0 +1,234 @@
+@import url("../css/header.css");
+@import url("../css/font.css");
+@import url("../css/footer.css");
+
+.container {
+  overflow: hidden;
+  display: grid;
+  width: 80vw;
+  margin: auto;
+  grid-template-columns: 35vw 35vw;
+  grid-template-rows: 45vh 45vh;
+  grid-gap: 25px;
+  grid-template-areas:
+    "top top"
+    "bottomLeft bottomRight";
+  justify-content: center;
+}
+
+img {
+  max-width: 44%;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  max-width: 100%;
+}
+
+#one {
+  display: inline;
+  object-fit: contain;
+  background-position: center;
+  background-size: 44%;
+  /* background-image: url("../imgs/Jehovah.jpeg"); */
+  background-image: max;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  grid-area: top;
+}
+
+#two {
+  font-size: 17px;
+  grid-area: bottomLeft;
+  max-width: 100%;
+}
+
+#three {
+  font-size: 20px;
+  grid-area: bottomRight;
+  max-width: 100%;
+}
+
+em {
+  color: red;
+  font-weight: 800;
+}
+
+u {
+  color: gold;
+}
+
+@media (min-width: 0px) and (max-width: 400px) {
+  /* body {
+    background-color: gold;
+  } */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .navdiv {
+    font-size: 16px;
+  }
+
+  .blog {
+    font-size: 20px;
+    color: black;
+  }
+
+  h2 {
+    font-size: 12px;
+  }
+
+  button {
+    display: inline;
+  }
+
+  .cadetnscout h1 {
+    display: block;
+    font-size: 144%;
+  }
+
+  .img {
+    object-fit: contain;
+    width: 200px;
+    height: 100px;
+    justify-items: center;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: 7px;
+  }
+}
+
+/*         */
+@media (min-width: 301px) and (max-width: 600px) {
+  /* body {
+    background-color: purple;
+  } */
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .navdiv {
+    font-size: 17px;
+  }
+
+  .blog {
+    font-size: 30px;
+    color: black;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  button {
+    display: inline;
+  }
+
+  .cadetnscout h1 {
+    display: block;
+    font-size: 144%;
+  }
+
+  .img {
+    object-fit: contain;
+    width: 300px;
+    height: 200px;
+    justify-items: center;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: 7px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 3000px) {
+  /* body {
+    background-color: red;
+  } */
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .navdiv {
+    font-size: 17px;
+  }
+
+  .blog {
+    font-size: 40px;
+    color: black;
+  }
+
+  h2 {
+    font-size: 33px;
+  }
+
+  button {
+    display: inline-flexbox;
+  }
+
+  .cadetnscout h1 {
+    display: block;
+    font-size: 144%;
+  }
+
+  .img {
+    object-fit: contain;
+    width: 700px;
+    height: 300px;
+    justify-items: center;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    font-size: 14px;
+  }
+}
+
+/*  */
+
+@media (min-width: 961px) and (max-width: 3000px) {
+  /* body {
+    background-color: green;
+  } */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navdiv {
+    font-size: 40px;
+  }
+
+  .blog {
+    font-size: 50px;
+    color: black;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    font-size: 12px;
+  }
+}
